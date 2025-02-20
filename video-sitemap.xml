@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+    <url>
+        <loc>https://flashcardbox.eu/</loc>
+        <video:video>
+            <video:content_loc>https://flashcardbox.eu/images/box.webm</video:content_loc>
+            <video:thumbnail_loc>https://ton-site.com/images/flashcard-box-thumbnail.jpg</video:thumbnail_loc>
+            <video:title>3D Printed Flashcard Box in Action</video:title>
+            <video:description>See how the flashcard box works, with its sliding lid and movable dividers.</video:description>
+            <video:duration>6</video:duration>
+            <video:publication_date>2025-02-19T12:00:00+00:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+        </video:video>
+    </url>
+
+</urlset>

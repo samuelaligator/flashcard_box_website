@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://flashcardbox.eu/sitemap.xml
+Sitemap: https://flashcardbox.eu/video-sitemap.xml

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <url>
+        <loc>https://flashcardbox.eu/</loc>
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/box_1.webp</image:loc>
+            <image:title>Flashcard Box with Cards</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/box_2.webp</image:loc>
+            <image:title>Flashcard Box Open</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/box_3.webp</image:loc>
+            <image:title>3D Printed Flashcard Box</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/Leitner_system_alternative.svg-1.webp</image:loc>
+            <image:title>Leitner System Explanation</image:title>
+        </image:image>
+    </url>
+</urlset>
