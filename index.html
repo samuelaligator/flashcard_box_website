@@ -13,32 +13,14 @@
             content="3D printed flashcard box, Leitner method, spaced repetition, study organizer, flashcards, adjustable dividers, sliding lid, A8 flashcards, 3D model"
     />
     <!-- Tailwind CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-    <!-- DaisyUI -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" />
-    <style>
-        /* Custom styles for the black & orange theme */
-        .accent-orange {
-            color: #D35400;
-        }
-        .bg-accent-orange {
-            background-color: #D35400;
-        }
-        .btn-orange {
-            background-color: #D35400;
-            border: none;
-        }
-        .btn-orange:hover {
-            background-color: #BA4A00;
-        }
-    </style>
+    <link href="src/output.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 text-gray-800">
 <!-- Header -->
 <header class="bg-black text-white p-6">
     <div class="container mx-auto">
         <h1 class="text-4xl font-bold">3D Printed Flashcard Box for the Leitner Method</h1>
-        <p class="mt-2 text-xl accent-orange">
+        <p class="mt-2 text-xl text-orange-400">
             Optimize Your Study Routine with a Portable, Innovative Organizer
         </p>
     </div>
@@ -53,11 +35,9 @@
             Whether you're a student, language learner, or lifelong learner, this organizer is your perfect study companion.
         </p>
         <!-- Main product image -->
-        <img
-                src="./images/boite.gif"
-                alt="3D Printed Flashcard Box"
-                class="mx-auto rounded shadow-lg mb-6"
-        />
+        <video class="mx-auto rounded shadow-lg mb-6" autoplay loop muted playsinline>
+            <source src="./images/box.webm" type="video/webm">
+        </video>
     </div>
 </section>
 
@@ -108,7 +88,7 @@
         </ul>
         <div class="text-center">
             <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Leitner_system_alternative.svg/460px-Leitner_system_alternative.svg.png?20201124013310"
+                    src="./images/Leitner_system_alternative.svg-1.webp"
                     alt="Leitner System Diagram"
                     class="mx-auto rounded shadow-lg"
             />
@@ -130,7 +110,7 @@
     </p>
     <div class="text-center">
         <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/ForgettingCurve.svg/277px-ForgettingCurve.svg.png?20070607143916"
+                src="./images/ForgettingCurve.svg-1.webp"
                 alt="Spaced Repetition Benefits"
                 class="mx-auto rounded shadow-lg"
         />
@@ -172,11 +152,11 @@
     <div class="w-full flex  flex-col justify-center items-center container mx-auto px-6">
         <h2 class="text-3xl font-bold text-center mb-6 accent-orange">Gallery</h2>
         <div class=" grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img src="./images/PXL_20250218_155001826_cropped.webp" alt="Flashcard Box Front View" class="rounded shadow-lg" />
+            <img src="images/box_1.webp" alt="Flashcard Box Front View" class="rounded shadow-lg" />
             <div class="flex justify-center items-center">
-                <img src="./images/PXL_20250218_155403714_cropped.webp" alt="Flashcard Box Opened" class="rounded shadow-lg" />
+                <img src="images/box_2.webp" alt="Flashcard Box Opened" class="rounded shadow-lg" />
             </div>
-            <img src="./images/PXL_20250218_154844960_cropped.webp" alt="Flashcard Box Assembled" class="rounded shadow-lg" />
+            <img src="images/box_3.webp" alt="Flashcard Box Assembled" class="rounded shadow-lg" />
         </div>
     </div>
 </section>
@@ -235,7 +215,7 @@
     </div>
 </section>
 <section id="#download" class="text-center py-10">
-    <h2 class="text-3xl font-semibold text-orange-400">Get Your A8 Flashcards</h2>
+    <h2 class="text-3xl font-semibold accent-orange">Get Your A8 Flashcards</h2>
     <p class="mt-4">Don’t have flashcards? Get them on amazon based on your location:</p>
     <div class="mt-6 flex flex-wrap justify-center gap-4">
         <a href="https://amzn.to/4k2fBfL" class="px-6 py-3 bg-blue-500 rounded-lg text-white font-bold hover:bg-blue-600 transition">🇫🇷 France</a>
@@ -263,7 +243,7 @@
     <div class="container mx-auto text-center">
         <p>Thanks chatGPT :) <br><br> I made this site and the text with this AI but i really designed this box in 3d, <br>it's just a way to advertise it very quickly thanks to google referencing. <br>If you want to support me, I earn 1% with the amazon affiliate link.</p><br>
         <p>
-            Model released under a <a href="#" class="accent-orange underline">CC BY-NC-ND</a> license.
+            Model released under a <a href="#" class="text-orange-400 underline">CC BY-NC-ND</a> license.
         </p>
 
     </div>

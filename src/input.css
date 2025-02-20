@@ -1,0 +1,18 @@
+@import "../node_modules/tailwindcss";
+@import "tailwindcss";
+@plugin "daisyui";
+
+    /* Custom styles for the black & orange theme */
+.accent-orange {
+    color: #D35400;
+}
+.bg-accent-orange {
+    background-color: #D35400;
+}
+.btn-orange {
+    background-color: #D35400;
+    border: none;
+}
+.btn-orange:hover {
+    background-color: #BA4A00;
+}
