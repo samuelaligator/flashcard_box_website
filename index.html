@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3D Printed Flashcard Box for the Leitner Method | Optimize Your Study</title>
+    <title>3D Printed Flashcard Box for the Leitner Method</title>
     <meta
             name="description"
             content="Download our innovative 3D printed flashcard box designed for the Leitner spaced repetition method. Perfect for students and language learners—print, assemble, and boost your study efficiency!"
@@ -14,6 +14,13 @@
     />
     <!-- Tailwind CSS -->
     <link href="src/output.css" rel="stylesheet">
+    <link rel="alternate" hreflang="en" href="https://flashcardbox.eu/">
+    <link rel="alternate" hreflang="fr" href="https://flashcardbox.eu/fr/">
+    <link rel="alternate" hreflang="de" href="https://flashcardbox.eu/de/">
+    <link rel="alternate" hreflang="it" href="https://flashcardbox.eu/it/">
+    <link rel="alternate" hreflang="es" href="https://flashcardbox.eu/es/">
+    <link rel="alternate" hreflang="x-default" href="https://flashcardbox.eu/">
+
 </head>
 <body class="bg-gray-100 text-gray-800">
 <!-- Header -->
@@ -23,6 +30,18 @@
         <p class="mt-2 text-xl text-orange-400">
             Optimize Your Study Routine with a Portable, Innovative Organizer
         </p>
+        <!-- Language Dropdown Menu -->
+        <div class="dropdown dropdown-end">
+            <button class="btn bg-blue-800 mt-4 rounded-box">Language ⬇️</button>
+            <ul class="dropdown-content menu mt-2 p-2 shadow bg-base-100 rounded-box">
+                <li><a href="https://flashcardbox.eu/" class="text-sm">🇬🇧 English</a></li>
+                <li><a href="https://flashcardbox.eu/fr/" class="text-sm">🇫🇷 French</a></li>
+                <li><a href="https://flashcardbox.eu/de/" class="text-sm">🇩🇪 German</a></li>
+                <li><a href="https://flashcardbox.eu/it/" class="text-sm">🇮🇹 Italian</a></li>
+                <li><a href="https://flashcardbox.eu/es/" class="text-sm">🇪🇸 Spanish</a></li>
+            </ul>
+        </div>
+
     </div>
 </header>
 
@@ -36,7 +55,7 @@
         </p>
         <!-- Main product image -->
         <video class="mx-auto rounded shadow-lg mb-6" autoplay loop muted playsinline>
-            <source src="./images/box.webm" type="video/webm">
+            <source src="images/box.webm" type="video/webm">
         </video>
     </div>
 </section>
@@ -88,7 +107,7 @@
         </ul>
         <div class="text-center">
             <img
-                    src="./images/Leitner_system_alternative.svg-1.webp"
+                    src="images/Leitner_system_alternative.svg-1.webp"
                     alt="Leitner System Diagram"
                     class="mx-auto rounded shadow-lg"
             />
@@ -110,7 +129,7 @@
     </p>
     <div class="text-center">
         <img
-                src="./images/ForgettingCurve.svg-1.webp"
+                src="images/ForgettingCurve.svg-1.webp"
                 alt="Spaced Repetition Benefits"
                 class="mx-auto rounded shadow-lg"
         />
