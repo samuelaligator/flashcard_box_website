@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://flashcardbox.eu/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flashcardbox.eu/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://flashcardbox.eu/fr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://flashcardbox.eu/de/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://flashcardbox.eu/it/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://flashcardbox.eu/es/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://flashcardbox.eu/"/>
+
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/box_1.webp</image:loc>
+            <image:title>Flashcard Box with Cards</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/box_2.webp</image:loc>
+            <image:title>Flashcard Box Open</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/box_3.webp</image:loc>
+            <image:title>3D Printed Flashcard Box</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://flashcardbox.eu/images/Leitner_system_alternative.svg-1.webp</image:loc>
+            <image:title>Leitner System Explanation</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://flashcardbox.eu/fr/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flashcardbox.eu/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://flashcardbox.eu/fr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://flashcardbox.eu/de/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://flashcardbox.eu/it/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://flashcardbox.eu/es/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://flashcardbox.eu/"/>
+    </url>
+
+    <url>
+        <loc>https://flashcardbox.eu/de/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flashcardbox.eu/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://flashcardbox.eu/fr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://flashcardbox.eu/de/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://flashcardbox.eu/it/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://flashcardbox.eu/es/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://flashcardbox.eu/"/>
+    </url>
+
+    <url>
+        <loc>https://flashcardbox.eu/it/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flashcardbox.eu/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://flashcardbox.eu/fr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://flashcardbox.eu/de/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://flashcardbox.eu/it/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://flashcardbox.eu/es/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://flashcardbox.eu/"/>
+    </url>
+
+    <url>
+        <loc>https://flashcardbox.eu/es/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flashcardbox.eu/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://flashcardbox.eu/fr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://flashcardbox.eu/de/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://flashcardbox.eu/it/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://flashcardbox.eu/es/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://flashcardbox.eu/"/>
+    </url>
+
+</urlset>
